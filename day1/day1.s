@@ -1,6 +1,5 @@
 .text
 
-/* Our application's entry point. */
 .globl _start
 //.extern printf
 _start:
@@ -25,7 +24,6 @@ _print:
     //pop {ip, pc}
     b _exit
 
-/* set xegister to address, call function, check xeturned */
 // x9 is digit address, x10 is current char, x11 is a found digit, x12 is the caller for the finddigit helper, x13 is first digit, x14 is last digit, x15 is sum of the final thing
 _firstdigit:
     //cmp 0x0a (\n) to determine if word ended   
