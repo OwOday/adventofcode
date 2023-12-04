@@ -1,0 +1,1 @@
+I am become computer destroyer of buffer
